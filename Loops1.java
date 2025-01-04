@@ -1,6 +1,6 @@
-package JavaPractice;
+
 import java.util.*;
-public class Loops1 {
+class Loops1 {
     public static void main(String args[])
     { 
         //Multiplication Table
@@ -14,7 +14,7 @@ public class Loops1 {
             mul = num*i;
             System.out.println(mul);
         }
-        /* 
+        
         //Sum of n numbers
         System.out.println("Enter the number:");
         int n = sc.nextInt();
@@ -33,6 +33,6 @@ public class Loops1 {
         {
             fact = fact*i;
         }
-        System.out.println("Factorial of the number is: " +fact);   */    
+        System.out.println("Factorial of the number is: " +fact);    
     }
 }
