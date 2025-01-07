@@ -1,4 +1,4 @@
-package Var_args;
+package Varargs;
 
 public class Var_args1 {
     static int max(int... A)

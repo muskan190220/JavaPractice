@@ -9,6 +9,5 @@ public class Rectangletest {
         
         System.out.println(r.area());
         System.out.println(r.perimeter());
-
     }
 }

@@ -1,4 +1,4 @@
-package Var_args;
+package Varargs;
 
 public class Var_args2 
 {

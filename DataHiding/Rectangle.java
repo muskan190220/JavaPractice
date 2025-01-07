@@ -1,9 +1,8 @@
 package DataHiding;
-class Rectangle {
+class Rectangle 
+{
     private int length;
     private int breadth;
-    
-
     //set length
     public int getLength()
     {
