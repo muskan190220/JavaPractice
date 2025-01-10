@@ -7,6 +7,5 @@ public class Cylindertest {
         System.out.println(c.lidarea());
         System.out.println(c.volume());
         System.out.println(c.TotSurfaceArea());
-    }
-    
+    }    
 }
