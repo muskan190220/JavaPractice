@@ -4,7 +4,7 @@ public class Producttest {
     public static void main(String args[])
     {
         Product p = new Product("A123-45", "Tshirt", (float)75.2, 12);
-        Customer c = new Customer(110023, "Muskan Kesharwani", "Itwari, Nagpur", 749811259);
+        Customer c = new Customer(110023, "Muskan Kesharwani", "Itwari, Nagpur", 7498112598L);
         
         System.out.println("Customer details:");
         System.out.println(" ");
