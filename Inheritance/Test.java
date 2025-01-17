@@ -38,11 +38,17 @@ class Accounts {
             bal = 0;
     
         }
-    }
     
-    public class SavingsAccount extends Accounts
+    
+    class SavingsAccount extends Accounts
     {
         public long amt;
+
+        public SavingsAccount(long amt)
+        {
+            super(amt, getName(), getAddr(), getPhno(), getDob(), bal);
+            
+        }
     
         public void deposit(long amt)
         {
@@ -55,8 +61,13 @@ class Accounts {
         }
 
     }
-    class LoanAccount extends Accounts{
-
+    class LoanAccount extends Accounts
+    {
+        public long amt;
+        public LoanAccount()
+        {
+            super(bal, getName(), getAddr(), getPhno(), getDob(), bal);
+        }
         public void payEMI(long amt)
         {
             bal-=amt;
@@ -67,6 +78,7 @@ class Accounts {
                 bal=0;
         }   
     }
+}
 
     public class Test
     {
