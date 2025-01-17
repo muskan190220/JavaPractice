@@ -40,11 +40,9 @@ class Accounts {
         }
     }
     
-    class SavingsAccount extends Accounts
+    public class SavingsAccount extends Accounts
     {
         public long amt;
-
-        public SavingsAccount
     
         public void deposit(long amt)
         {
@@ -56,5 +54,24 @@ class Accounts {
             bal = bal-amt;
         }
 
-    
-}
+    }
+    class LoanAccount extends Accounts{
+
+        public void payEMI(long amt)
+        {
+            bal-=amt;
+        }
+        public void repay(long amt)
+        {
+            if(bal==amt)
+                bal=0;
+        }   
+    }
+
+    public class Test
+    {
+        public static void main(String args[])
+        {
+
+        }
+    }
