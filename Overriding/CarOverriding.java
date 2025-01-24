@@ -15,7 +15,7 @@ class Car
         System.out.println("Changing the gear Manually");
     }
 }
-class LuxuryCar
+class LuxuryCar extends Car
 {
     public void Start()
     {
@@ -49,5 +49,6 @@ public class CarOverriding {
         lc.ChangeGear();
         lc.OpenRoof();
 
-        
+        Car cu = new LuxuryCar();
+        cu.Accelerate();
 }}
