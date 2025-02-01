@@ -44,11 +44,8 @@ public class Shopping
         Customer c1 = new Customer("John");
         Customer c2 = new Customer("Smith");
 
-        c2.callback();
-        c1.callback();
-
-        
-
-
+        s.register(c1);
+        s.register(c2);
+        s.invitesale();
     }
 }
