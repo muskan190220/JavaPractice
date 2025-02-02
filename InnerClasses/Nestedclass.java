@@ -33,6 +33,10 @@ public class Nestedclass
     {
         Outer o = new Outer();
         o.Answer();
+
+        //Other way to directly access the inner class method:
+        Outer.Inner oi = new Outer().new Inner();
+        oi.swap();
     }
     
 }
