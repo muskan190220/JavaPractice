@@ -5,7 +5,7 @@ import java.util.*;
 class Universitystu
 {
     private String rollno;
-    private String name;
+    //private String name;
     private static int count = 1;
 
     private String generateRollNo()
@@ -38,8 +38,5 @@ public class Student
         System.out.println(u1.getRollno());
         System.out.println(u2.getRollno());
         System.out.println(u3.getRollno());
-
-
-
     }
 }
