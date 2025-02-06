@@ -1,22 +1,26 @@
 package ExceptionHandling;
 
+import java.util.Scanner;
+
 
 public class Exceptions2 {
     public static void main(String args[])
     {
-        try{
-            int[] a = {10,0,12,5,4,3,9,4,1,7};
-            int r = a[1]/a[0];
+       Scanner sc = new Scanner(System.in); 
+        int a, b, c;
+        try {
+            System.out.print("Enter value for a: ");
+            a = sc.nextInt();
+            System.out.print("Enter value for b: ");
+            b = sc.nextInt();
+            
+            c = a / b;  // This line will throw ArithmeticException if b = 
+            System.out.println("Result: " + c);
+           
         }
         catch(ArithmeticException e)
         {
             System.out.println("Demonitor cannot be 0, try again");
         }
-        catch(ArrayIndexOutOfBoundsException e)
-        {
-            System.out.println("Array index out of bound ");
-        }
-        
-        
     }
 }
