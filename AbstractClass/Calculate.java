@@ -22,8 +22,7 @@ class Circle extends Shape
     public int area()
     {
         return (int) (Math.PI*radius*radius);
-    }
-    
+    }    
 }
 class Rectangle extends Shape
 {
@@ -39,6 +38,9 @@ class Rectangle extends Shape
         return length*breadth;
     }
 }
+
+
+
 public class Calculate 
 {
     public static void main(String args[])
@@ -53,8 +55,6 @@ public class Calculate
         c.radius = 5;
         System.out.println("Area of circle is: "+c.area());
         System.out.println("Perimeter of circle is: "+c.perimeter());
-
-
     }
     
     
