@@ -1,5 +1,5 @@
 package ExceptionHandling;
-import java.io.*;
+
 
 class lowbalexception extends Exception{
     public String toString()
@@ -25,8 +25,6 @@ public class Checked {
         }
         public static void main(String args[])
         {
-            
-            
             Checked.fun2();
         }
 }
