@@ -22,7 +22,7 @@ public class Userdefined {
     public void meth1()
     {
         try {
-            int a = area(-10, 5);
+            int a = area(10, 5);
             System.out.println(a);
         } catch (NegativeDimensionException e) {
 
