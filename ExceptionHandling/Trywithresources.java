@@ -7,13 +7,12 @@ import java.util.*;
 
 public class Trywithresources {
     
-    static Scanner sc;
     
         static void Divide() throws Exception
         {
-            try(FileInputStream f = new FileInputStream("D:\\Java Practice_git\\Text.txt");)
+            try(FileInputStream f = new FileInputStream("D:\\Java Practice_git\\Text.txt");Scanner sc = new Scanner(f))
             {
-            sc = new Scanner(f);
+            
             int a = sc.nextInt();
             int b = sc.nextInt();
             int c = sc.nextInt();
