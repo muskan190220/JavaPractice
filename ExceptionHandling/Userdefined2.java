@@ -76,8 +76,7 @@ public class Userdefined2
             System.out.println(st.pop());
             System.out.println(st.pop());
             System.out.println(st.pop());
-
-            //st.pop();
+        
         }
         catch(StackUnderFLow e)
         {
