@@ -5,6 +5,7 @@ class ThreadTest extends Thread
     public ThreadTest(String name)
     {
         super(name);
+        setPriority(Thread.MAX_PRIORITY);
     }
 }
 public class MyThread  
@@ -16,9 +17,10 @@ public class MyThread
         
         System.out.println("Id: "+ th.getId());
         System.out.println("Name: "+ th.getName());
+        th.start();
         System.out.println("Priority: "+ th.getPriority());
 
-        th.start();
+        //th.start();
         System.out.println("State: "+ th.getState());
         System.out.println("Alive: "+ th.isAlive());
 
