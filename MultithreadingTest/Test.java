@@ -1,6 +1,6 @@
-package Multithreading;
+package MultithreadingTest;
 
-class My implements Runnable
+class MyThread extends Thread
 {
     public void run()
     {
@@ -12,12 +12,12 @@ class My implements Runnable
         }
     }   
 }
-public class Runnabletest 
+
+public class Test 
 {
     public static void main(String args[])
     {
-        My m = new My();
-        Thread t = new Thread(m);
+        MyThread t = new MyThread();
         t.start();
 
         int i = 1;
@@ -27,5 +27,4 @@ public class Runnabletest
             i++;
         }
     }
-    
 }

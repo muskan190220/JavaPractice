@@ -1,4 +1,4 @@
-package Multithreading;
+package MultithreadingTest;
 
 class Mythread extends Thread {
     public Mythread(String name) {

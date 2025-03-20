@@ -1,4 +1,4 @@
-package Multithreading;
+package MultithreadingTest;
 
 class ThreadTest extends Thread
 {
